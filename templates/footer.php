@@ -3,10 +3,10 @@
 <footer id="footer">
 
   <ul class="icons">
-    <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-    <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-    <li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-    <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+    <li><a href="#" ><i class="fi-social-linkedin">cv</i></a></li>
+    <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+    <li><a href="#" class="fa-google-plus"><span class="label">Google+</span></a></li>
+    <li><a href="#" class="fa-github"><span class="label">Github</span></a></li>
     <li><a href="/credits.php" >Credits</a></li>
   </ul>
 
