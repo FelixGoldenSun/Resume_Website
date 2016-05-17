@@ -23,24 +23,34 @@
 
       <div class="row" id="main-menu">
         <div class="small-12 medium-offset-3  medium-9 large-offset-4 large-8 column">
-          <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu >
+          <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown"  >
             <li><a href="/index.php">About Me</a></li>
             <li><a href="/resume.php">My Resume</a></li>
             <li>
               <a href="#">Projects</a>
-              <ul class="menu" >
+              <ul class="nested vertical menu " >
                 <li><a href="#">PHP</a>
-                  <ul class="menu" >
-                    <li><a href="#">PHP</a></li>
-                    <li><a href="#">Ruby / Rails</a></li>
-                    <li><a href="#">HTML 5 / CSS 3</a></li>
-                    <li><a href="#">Android / IOS</a></li>
-                    <li><a href="#">Ipsum Nisl</a></li>
+                  <ul class="nested vertical menu" >
+                    <li><a href="#">project 1</a></li>
+                    <li><a href="#">project 2</a></li>
+                    <li><a href="#">project 3</a></li>
+                    <li><a href="#">project 4</a></li>
+                    <li><a href="#">project 5</a></li>
                   </ul>
                 </li>
                 <li><a href="#">Ruby / Rails</a></li>
                 <li><a href="#">HTML 5 / CSS 3</a></li>
-                <li><a href="#">Android / IOS</a></li>
+                <li><a href="#">Android / IOS</a>
+                <li><a href="#">PHP</a>
+                  <ul class="nested vertical menu" >
+                    <li><a href="#">project 1</a></li>
+                    <li><a href="#">project 2</a></li>
+                    <li><a href="#">project 3</a></li>
+                    <li><a href="#">project 4</a></li>
+                    <li><a href="#">project 5</a></li>
+                  </ul>
+                </li>
+                </li>
                 <li><a href="#">Ipsum Nisl</a></li>
               </ul>
             </li>
