@@ -30,6 +30,15 @@ nav{
 
 footer{
     text-align: center;
+    background-color: #0c4d78;
+    padding: 1em;
+    color: #ffffff;
+}
+
+i{
+    font-size: 3em;
+    color: #ffffff;
+    margin: 0 0.2em 0 0.2em;
 }
 
 
@@ -51,4 +60,9 @@ footer{
         display: inline-block;
         margin-bottom: -5px;
     }
+
+    i{
+        margin: 0 0.5em 0 0.5em;
+    }
+
 }

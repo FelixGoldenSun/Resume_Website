@@ -30,7 +30,7 @@
             <li><a href="/resume.php">My Resume</a></li>
             <li>
               <a href="#">Projects</a>
-              <ul class="small-nested vertical menu">
+              <ul class="vertical menu">
                 <li><a href="#">PHP</a>
                   <ul class="vertical menu">
                     <li><a href="#">project 1</a></li>
