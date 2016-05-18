@@ -1,31 +1,21 @@
 
 <!-- Footer -->
 <footer id="footer">
+  <div class="row">
+    <div class="small-12 column"><a href="#" ><i class="step fi-social-linkedin"></i></a></div>
+  </div>
 
-  <ul class="icons">
-    <li><a href="#" ><i class="fi-social-linkedin">cv</i></a></li>
-    <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-    <li><a href="#" class="fa-google-plus"><span class="label">Google+</span></a></li>
-    <li><a href="#" class="fa-github"><span class="label">Github</span></a></li>
-    <li><a href="/credits.php" >Credits</a></li>
-  </ul>
-
-  <ul class="copyright">
-    <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-  </ul>
+  <div class="row">
+    <div class="small-12 column">&copy; Untitled Design: <a href="http://html5up.net">HTML5 UP</a><</div>
+  </div>
 
 </footer>
-
-</div>
 
 <!-- Scripts -->
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.min.js"></script>
 <script src="js/vendor/foundation.min.js"></script>
-
-<script>
-  $(document).foundation();
-</script>
+<script src="js/main_scripts.js"></script>
 
 </body>
 </html>

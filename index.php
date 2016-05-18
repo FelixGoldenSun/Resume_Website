@@ -12,7 +12,7 @@ require "templates/functions.php";
 <article id="main">
 
   <div class="row">
-    <div class="column-12">
+    <div class="small-centered">
       <h1>OUR SPECIALS</h1>
     </div>
     <!-- end column -->
@@ -20,7 +20,7 @@ require "templates/functions.php";
   <!-- end row -->
 
   <div class="row">
-    <div class="column-6">
+    <div class="small-12 medium-6 column">
       <p>LEFT SIDE Rhoncus turpis, parturient lectus magna enim velit aliquet aliquam. Et duis? Mauris sed odio! Purus, ut
         phasellus, mauris, integer est cum, placerat, in nec ridiculus, turpis nec ac. Vel! Et tristique penatibus
         augue nisi, sociis, platea vut aliquet, non odio mauris risus odio nascetur elit elementum sed, nisi integer
@@ -31,7 +31,7 @@ require "templates/functions.php";
         platea. Sed turpis penatibus? Vel augue in montes non odio augue vel montes.</p>
     </div>
     <!-- end column -->
-    <div class="column-6">
+    <div class="small-12 medium-6 column">
       <p>RIGHT SIDE Rhoncus turpis, parturient lectus magna enim velit aliquet aliquam. Et duis? Mauris sed odio! Purus, ut
         phasellus, mauris, integer est cum, placerat, in nec ridiculus, turpis nec ac. Vel! Et tristique penatibus
         augue nisi, sociis, platea vut aliquet, non odio mauris risus odio nascetur elit elementum sed, nisi integer
