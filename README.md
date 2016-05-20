@@ -1,5 +1,5 @@
 # resume_website
 
-A webite to host my resume and to display my projects. Hosted at chesthighwalls.com
+A website to host my resume and to display my projects. Hosted at benawalls.com
 
 By Ben Walls.

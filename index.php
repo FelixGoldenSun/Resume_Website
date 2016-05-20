@@ -9,10 +9,12 @@ require "templates/functions.php";
 ?>
 
 <!-- Main -->
-<article id="main">
+<article>
+  <div class="row">
+    <div class="small-12 small-centered medium-12 medium-centered column">
 
   <div class="row">
-    <div class="small-centered">
+    <div class="small-12 column">
       <h1>OUR SPECIALS</h1>
     </div>
     <!-- end column -->
@@ -40,6 +42,8 @@ require "templates/functions.php";
     <!-- end column -->
   </div>
   <!-- end row -->
+      </div>
+  </div>
 
 </article>
 
