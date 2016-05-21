@@ -12,18 +12,17 @@ header {
     text-align: center;
     font-family: Georgia, serif; }
 
-nav {
-  background-color: #111111;
-  box-shadow: 1px -1px 30px #111111; }
+nav, nav ul, nav ul li {
+  background-color: #111111; }
 
-a {
+ul li a {
   color: #fff; }
 
 a:hover {
-  color: #eee; }
+  color: red; }
 
 a:active {
-  color: #fff; }
+  color: green; }
 
 .title-bar {
   text-align: center; }
@@ -31,6 +30,10 @@ a:active {
 body {
   background-color: #26667F;
   color: white; }
+
+#my-face {
+  border: 1px solid black;
+  border-radius: 2em; }
 
 article {
   font-family: Helvetica, sans-serif;
@@ -41,7 +44,7 @@ footer {
   background-color: #333;
   padding: 1em;
   color: #ffffff;
-  box-shadow: 1px -1px 20px #111111; }
+  box-shadow: 1px -1px 20px #52A9C3; }
 
 i {
   font-size: 3em;

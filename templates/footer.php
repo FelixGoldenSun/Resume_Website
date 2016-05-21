@@ -1,11 +1,10 @@
 
 <!-- Footer -->
-<footer id="footer">
+<footer>
   <div class="row">
     <div class="small-12 column">
-      <a href="#" ><i class="step fi-social-linkedin"></i></a>
-      <a href="#" ><i class="step fi-social-google-plus"></i></a>
-      <a href="#" ><i class="step fi-social-github size-48"></i></a>
+      <a href="https://www.linkedin.com/in/benawalls" ><i class="step fi-social-linkedin"></i></a>
+      <a href="https://github.com/FelixGoldenSun" ><i class="step fi-social-github"></i></a>
      </div>
   </div>
 
