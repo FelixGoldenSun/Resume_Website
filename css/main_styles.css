@@ -28,23 +28,26 @@ a:active {
   text-align: center; }
 
 body {
-  background-color: #26667F;
+  background-color: #27657e;
   color: white; }
 
-#my-face {
-  border: 1px solid black;
-  border-radius: 2em; }
-
 article {
-  font-family: Helvetica, sans-serif;
-  padding: 1em; }
+  font-family: Helvetica, sans-serif; }
+
+#content_wrapper {
+  padding: 2em;
+  background-color: #1e5065; }
+
+#index-image {
+  width: 74%;
+  display: block;
+  margin: 0 auto; }
 
 footer {
   text-align: center;
   background-color: #333;
   padding: 1em;
-  color: #ffffff;
-  box-shadow: 1px -1px 20px #52A9C3; }
+  color: #ffffff; }
 
 i {
   font-size: 3em;
@@ -62,6 +65,14 @@ i {
   #main-menu-ul {
     display: inline-block;
     margin-bottom: -5px; }
+
+  #index-image {
+    width: 28%;
+    margin: 0;
+    display: table-cell; }
+    #index-image img {
+      width: 100%;
+      height: auto; }
 
   i {
     margin: 0 0.5em 0 0.5em; } }

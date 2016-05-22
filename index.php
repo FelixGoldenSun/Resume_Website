@@ -11,20 +11,25 @@ require "templates/functions.php";
 <!-- Main -->
 <article>
   <div class="row">
-    <div class="small-12 small-centered medium-12 medium-centered column">
+    <div class="small-12 small-centered medium-12 medium-centered column" id="content_wrapper">
 
       <div class="row">
-        <div class="small-12 medium-4 column">
-          <img src="img/2016_02_1711_10_414949.JPG" alt="My Face" id="my-face">
-        </div>
-        <div class="small-12 medium-8 column">
-          <p>Adipiscing ultricies dictumst cras nisi sagittis purus lundium enim pellentesque,
-            adipiscing dolor! Penatibus dignissim cursus amet elementum penatibus porttitor et quis lorem nisi hac
-            turpis amet tempor, penatibus! Magnis phasellus cursus dictumst mattis, a vel rhoncus ultricies porttitor,
-            pulvinar turpis in sociis vut est sit sagittis? Scelerisque proin? Turpis adipiscing rhoncus dolor, proin
-            platea. Sed turpis penatibus? Vel augue in montes non odio augue vel montes.</p>
-        </div>
+          <div class="media-object stack-for-small">
+            <div class="media-object-section" id="index-image">
+              <div class="thumbnail">
+                <img src= "img/2016_02_1711_10_414949.JPG">
+              </div>
+            </div>
+            <div class="media-object-section">
+              <h3>Software Developer</h3>
+              <p>Hello! My name is Ben, and I am a software developer. Not exclusively, I have also developed websites
+                and I know a thing or two about SQL.</p>
 
+                <p>Now that you’re here, feel free to check out my projects or view my resume. I am currently just
+                finishing up two years of college, and I am available for hire. So if you need a developer, don’t hesitate
+                to contact me!</p>
+            </div>
+          </div>
       </div>
 
       <div class="row">

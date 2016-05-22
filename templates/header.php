@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="css/main_styles.css" />
 </head>
 <body>
-<div id="contentWrapper">
+<div id="wrapper">
 
   <!-- Header -->
   <header>
-    <h1><a href="/index.php">Ben Walls <br> Software Developer</a></h1>
+    <h1><a href="/index.php">Ben Walls</a></h1>
 
     <nav>
       <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium" >
@@ -56,7 +56,7 @@
                 <li><a href="#">Ipsum Nisl</a></li>
               </ul>
             </li>
-            <li><a href="/contat.php">Contact Me</a></li>
+            <li><a href="/contact.php">Contact Me</a></li>
           </ul>
             </div>
         </div>

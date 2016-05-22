@@ -2,7 +2,8 @@
 
 $heading-font-stack:    Georgia, serif;
 $body-font-stack:    Helvetica, sans-serif;
-$background-color: #26667F;
+$background-color: #27657e;
+$content_color: #1e5065;
 $header-footer-background: #333;
 $header-footer-text: #fff;
 $nav-color: #111111;
@@ -55,14 +56,19 @@ body{
   color: white;
 }
 
-#my-face{
-  border: 1px solid $header-footer-background;
-  border-radius: 2em;
-}
-
 article{
   font-family: $body-font-stack;
-  padding: 1em;
+}
+
+#content_wrapper{
+  padding: 2em;
+  background-color: $content_color;
+}
+
+#index-image{
+  width: 74%;
+  display: block;
+  margin: 0 auto;
 }
 
 footer{
@@ -70,7 +76,7 @@ footer{
   background-color: $header-footer-background;
   padding: 1em;
   color: #ffffff;
-  box-shadow: 1px -1px 20px #52A9C3;
+ //box-shadow: 1px -1px 20px #52A9C3;
 }
 
 i{
@@ -97,6 +103,17 @@ i{
   #main-menu-ul{
     display: inline-block;
     margin-bottom: -5px;
+  }
+
+  #index-image{
+    width: 28%;
+    margin: 0;
+    display: table-cell;
+
+    img{
+      width: 100%;
+      height: auto;
+    }
   }
 
   i{
