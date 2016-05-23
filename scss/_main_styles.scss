@@ -2,19 +2,18 @@
 
 $heading-font-stack:    Georgia, serif;
 $body-font-stack:    Helvetica, sans-serif;
-$background-color: #27657e;
 $content_color: #1e5065;
 $header-footer-background: #333;
 $header-footer-text: #fff;
 $nav-color: #111111;
 $link-color: #fff;
 
+
 /* --------------------------- Default / Mobile -------------------------------- */
 
 .no-js .top-bar {
   display: none;
 }
-
 
 ul, li{
   padding: 0;
@@ -48,12 +47,9 @@ a:active{
 
 
 .title-bar{
-  text-align: center;
-}
-
-body{
-  background-color: $background-color;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 article{
@@ -67,6 +63,7 @@ article{
 
 #index-image{
   width: 74%;
+  flex-basis: 74%;
   display: block;
   margin: 0 auto;
 }
@@ -96,19 +93,18 @@ i{
   }
 
   nav{
-    text-align: center;
+    // text-align: center;
   }
 
-
   #main-menu-ul{
-    display: inline-block;
-    margin-bottom: -5px;
+   // display: inline-block;
+   //  margin-bottom: -5px;
   }
 
   #index-image{
     width: 28%;
+    flex-basis: 28%;
     margin: 0;
-    display: table-cell;
 
     img{
       width: 100%;

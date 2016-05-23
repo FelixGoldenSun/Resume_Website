@@ -15,9 +15,10 @@
 </footer>
 
 <!-- Scripts -->
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/what-input.min.js"></script>
-<script src="js/vendor/foundation.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/what-input/what-input.js"></script>
+<script src="bower_components/foundation-sites/dist/foundation.js"></script>
+<script src="js/app.js"></script>
 <script src="js/main_scripts.js"></script>
 
 </body>

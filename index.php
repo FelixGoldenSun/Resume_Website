@@ -20,7 +20,7 @@ require "templates/functions.php";
                 <img src= "img/2016_02_1711_10_414949.JPG">
               </div>
             </div>
-            <div class="media-object-section">
+            <div class="media-object-section main-section">
               <h3>Software Developer</h3>
               <p>Hello! My name is Ben, and I am a software developer. Not exclusively, I have also developed websites
                 and I know a thing or two about SQL.</p>
