@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
-<div id="wrapper">
-
   <!-- Header -->
   <header>
     <h1><a href="/index.php">Ben Walls</a></h1>
@@ -23,7 +21,6 @@
 
       <div class="row" id="main-menu" >
         <div class="small-12 column">
-          <div id="menu-center-div">
           <ul class="vertical medium-horizontal menu align-center" data-responsive-menu="drilldown medium-dropdown" id="main-menu-ul">
             <li><a href="/index.php">About Me</a></li>
             <li><a href="/resume.php">My Resume</a></li>
@@ -57,7 +54,6 @@
             </li>
             <li><a href="/contact.php">Contact Me</a></li>
           </ul>
-            </div>
         </div>
       </div>
     </nav>

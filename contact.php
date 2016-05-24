@@ -10,9 +10,9 @@ require "templates/header.php";
 
 
 <!-- Main -->
-<article>
+<main>
   <div class="row">
-    <div class="small-12 small-centered medium-12 medium-centered column" id="content_wrapper">
+    <div class="small-12 small-centered medium-12 medium-centered align-bottom" id="content_wrapper">
 
       <div class="row">
         <div class="small-12 column">
@@ -38,7 +38,7 @@ require "templates/header.php";
       </section>
     </div>
   </div>
-</article>
+</main>
 
  <?php
 

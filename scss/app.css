@@ -3,17 +3,17 @@ Error: File to import not found or unreadable: util/util.
         on line 43 of _settings.scss
         from line 3 of app.scss
 
-38: @include foundation-switch;
-39: @include foundation-table;
-40: @include foundation-tabs;
-41: @include foundation-thumbnail;
-42: @include foundation-title-bar;
-43: @include foundation-tooltip;
-44: @include foundation-top-bar;
-45: @include foundation-visibility-classes;
-46: @include foundation-float-classes;
-47: // @include foundation-flex-classes;
-48: 
+38: @include foundation-reveal;
+39: @include foundation-switch;
+40: @include foundation-table;
+41: @include foundation-tabs;
+42: @include foundation-thumbnail;
+43: @include foundation-title-bar;
+44: @include foundation-tooltip;
+45: @include foundation-top-bar;
+46: @include foundation-visibility-classes;
+47: @include foundation-float-classes;
+48: // @include foundation-flex-classes;
 
 Backtrace:
 _settings.scss:43
@@ -73,4 +73,4 @@ C:/Ruby22/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: util/util.\A         on line 43 of _settings.scss\A         from line 3 of app.scss\A \A 38: @include foundation-switch;\A 39: @include foundation-table;\A 40: @include foundation-tabs;\A 41: @include foundation-thumbnail;\A 42: @include foundation-title-bar;\A 43: @include foundation-tooltip;\A 44: @include foundation-top-bar;\A 45: @include foundation-visibility-classes;\A 46: @include foundation-float-classes;\A 47: // @include foundation-flex-classes;\A 48: "; }
+  content: "Error: File to import not found or unreadable: util/util.\A         on line 43 of _settings.scss\A         from line 3 of app.scss\A \A 38: @include foundation-reveal;\A 39: @include foundation-switch;\A 40: @include foundation-table;\A 41: @include foundation-tabs;\A 42: @include foundation-thumbnail;\A 43: @include foundation-title-bar;\A 44: @include foundation-tooltip;\A 45: @include foundation-top-bar;\A 46: @include foundation-visibility-classes;\A 47: @include foundation-float-classes;\A 48: // @include foundation-flex-classes;"; }

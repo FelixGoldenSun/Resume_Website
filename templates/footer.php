@@ -1,6 +1,6 @@
 
 <!-- Footer -->
-<footer>
+<footer class="footer">
   <div class="row">
     <div class="small-12 column">
       <a href="https://www.linkedin.com/in/benawalls" ><i class="step fi-social-linkedin"></i></a>
@@ -19,7 +19,6 @@
 <script src="bower_components/what-input/what-input.js"></script>
 <script src="bower_components/foundation-sites/dist/foundation.js"></script>
 <script src="js/app.js"></script>
-<script src="js/main_scripts.js"></script>
 
 </body>
 </html>
