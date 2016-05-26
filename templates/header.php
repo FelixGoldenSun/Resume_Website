@@ -48,7 +48,6 @@
                     <li><a href="#">project 5</a></li>
                   </ul>
                 </li>
-                </li>
                 <li><a href="#">Ipsum Nisl</a></li>
               </ul>
             </li>
