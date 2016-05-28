@@ -4,7 +4,6 @@ $page_title = "About Me";
 
 require "templates/header.php";
 
-require "templates/functions.php";
 
 ?>
 

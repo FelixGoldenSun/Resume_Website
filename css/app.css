@@ -4043,7 +4043,8 @@ header {
       flex-shrink: 0; }
   header h1 {
     text-align: center;
-    font-family: Georgia, serif; }
+    font-family: Georgia, serif;
+    padding: 0.3em; }
 
 nav, nav ul, nav ul li {
   background-color: #111111; }
@@ -4075,6 +4076,21 @@ main {
   -ms-flex-direction: column;
       flex-direction: column; }
 
+#resume_title {
+  text-align: center;
+  font-family: Georgia, serif;
+  padding: 0.3em;
+  margin-bottom: 0.2em; }
+
+.resume_headings {
+  padding-top: 30px; }
+
+#resume_list li {
+  list-style-type: square; }
+
+#resume_list ul li {
+  list-style-type: circle; }
+
 main > div {
   -ms-flex: 1 0 auto;
       flex: 1 0 auto; }
@@ -4093,7 +4109,7 @@ main > div {
 footer {
   text-align: center;
   background-color: #14465b;
-  padding: 1em;
+  padding: 0.2em;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   color: #ffffff; }

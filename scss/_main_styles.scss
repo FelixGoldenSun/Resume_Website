@@ -32,6 +32,7 @@ header{
   h1{
     text-align: center;
     font-family: $heading-font-stack;
+    padding:0.3em;
   }
 }
 
@@ -66,6 +67,26 @@ main{
   flex-direction: column;
 }
 
+#resume_title{ //main Title
+  text-align: center;
+  font-family: $heading-font-stack;
+  padding:0.3em;
+  margin-bottom: 0.2em;
+}
+
+.resume_headings{ //headings for descriptions
+  padding-top: 30px;
+}
+
+#resume_list{
+  li{
+    list-style-type: square;
+  }
+  ul li{
+    list-style-type: circle;
+  }
+}
+
 main > div{
    flex: 1 0 auto;
 }
@@ -88,7 +109,7 @@ main > div{
 footer{
   text-align: center;
   background-color: $header-footer-background;
-  padding: 1em;
+  padding: 0.2em;
   flex-shrink: 0;
   color: #ffffff;
 
