@@ -2,6 +2,8 @@
 
 ob_start();
 
+session_start();
+
 $page_title = "Contact Me";
 
 require "templates/header.php";

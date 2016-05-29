@@ -1,6 +1,5 @@
 <?php
 
-$name = $_POST["name"];
 $email = $_POST["email"];
 $subject = $_POST["subject"];
 $questions = $_POST["questions"];
@@ -10,17 +9,17 @@ if (isset($_POST["submit_button"]) && !empty($name) && !empty($email) && !empty(
 
   $to = "benawalls@gmail.com";
   $subject = "$subject\r\n";
-  $message = "<h5>From $name at $email</h5>";
-  $message .= "<p>&nbsp;$questions</p>";
+  $message .= "<p>$questions</p>";
 
-  $headers = "From: contact@dbcalc.chesthighwalls.com\r\n";
+  $headers = "From: contact@benawalls.com\r\n";
   $headers .= "Content-type: text/html\r\n";
-  $headers .= "Bcc: dave.jones@scc.spokane.edu\r\n";
 
   mail($to, $subject, $message, $headers);
 
+  $_SESSION['email'] = "true";
+
   ob_clean();
-  header("location: /emailthank.php");
+  header("location: /email_thank.php");
 
 }
 
@@ -34,8 +33,8 @@ $form = <<<END_OF_FORM
 
              <div class="row">
                <div class="small-12 large-6 column">
-                 <input type="text" name="name" value="$name" placeholder="Name" required />
-                 <span  class="form-error">A name is required</span >
+                 <input type="text" name="subject" value="$subject" placeholder="Subject" required />
+                 <span class="form-error">A subject is required</span>
                </div>
                <div class="small-12  large-6 column">
                  <input type="email" name="email" value="$email" placeholder="Email" required />
@@ -44,13 +43,7 @@ $form = <<<END_OF_FORM
              </div>
              <div class="row">
                <div class="small-12 column">
-                 <input type="text" name="subject" value="$subject" placeholder="Subject" required />
-                 <span class="form-error">A subject is required</span>
-               </div>
-             </div>
-             <div class="row">
-               <div class="small-12 column">
-                 <textarea name="questions" placeholder="Comments here" rows="7" required>$questions</textarea>
+                 <textarea name="questions" placeholder="Message" rows="20" required>$questions</textarea>
                  <span class="form-error">Text required</span>
                </div>
              </div>

@@ -70,7 +70,7 @@ require "templates/header.php";
           </p>
           <p>&nbsp;- Two years in the Software development program</p>
           <ul id="resume_list">
-            <li>- Six certificates:
+            <li>Six certificates:
               <ul>
                 <li>.Net Developer</li>
                 <li>Android Mobile Development</li>
@@ -129,6 +129,11 @@ require "templates/header.php";
         <div class="small-12 column">
           <p class="resume_headings"><b>Accomplishments </b></p>
           <p>&nbsp;-Eagle Scout rank, the highest rank in the Boy Scouts</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 column">
+          <br><p class="center_text">Download: <a href="misc_files/ben_walls_resume.pdf">pdf</a> - <a href="misc_files/ben_walls_resume.docx">docx</a> </p>
         </div>
       </div>
     </div>

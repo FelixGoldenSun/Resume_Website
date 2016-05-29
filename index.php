@@ -9,8 +9,8 @@ require "templates/header.php";
 
 <!-- Main -->
 <main>
-  <div class="row" id="test">
-    <div class="small-12 small-centered medium-12 medium-centered column" id="content_wrapper">
+  <div class="row align-center">
+    <div class="small-12 medium-12 column" id="content_wrapper">
       <div class="row">
           <div class="media-object stack-for-small">
             <div class="media-object-section" id="index-image">
@@ -18,7 +18,7 @@ require "templates/header.php";
                 <img src= "img/2016_02_1711_10_414949.JPG">
               </div>
             </div>
-            <div class="media-object-section main-section" id="media-object-ie-fix">
+            <div class="media-object-section main-section">
               <h3>Software Developer</h3>
               <p>Hello! My name is Ben, and I am a software developer. Not exclusively, I have also developed websites
                 and I know a thing or two about SQL.</p>

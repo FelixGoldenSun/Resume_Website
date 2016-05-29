@@ -9,7 +9,7 @@
   </div>
 
   <div class="row">
-    <div class="small-12 column">&copy; Untitled Design: <a href="http://html5up.net">HTML5 UP</a></div>
+    <div class="small-12 column">&copy; Ben Walls - 2016</div>
   </div>
 
 </footer>
