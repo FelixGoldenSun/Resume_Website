@@ -20,7 +20,7 @@
       </div>
 
       <div class="row" id="main-menu" >
-        <div class="small-12 column">
+        <div class="small-12 column" >
           <ul class="vertical medium-horizontal menu align-center" data-responsive-menu="drilldown medium-dropdown" id="main-menu-ul">
             <li><a href="/index.php">About Me</a></li>
             <li><a href="/resume.php">My Resume</a></li>
@@ -47,7 +47,7 @@
                   </ul>
                 </li>
                 <li><a href="#">Android / IOS</a>
-                <li><a href="#">PHP</a>
+                <li><a href="#">JavaScript / JQuery</a>
                   <ul class="vertical menu" >
                     <li><a href="#">project 1</a></li>
                     <li><a href="#">project 2</a></li>

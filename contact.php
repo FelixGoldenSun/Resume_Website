@@ -18,7 +18,7 @@ require "templates/header.php";
 
       <div class="row">
         <div class="small-12 column">
-          <h2>Contact Me</h2>
+          <h2 id="page_title">Contact Me</h2>
           <p>If you want to contact me, go ahead and use the form below. It will be sent directly to my email.
             Alternatively, you can call or text me. Either way I will get back to you as soon as possible.</p>
           <p><b>Email:</b> benawalls@gmail.com</p>

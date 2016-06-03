@@ -5,7 +5,8 @@ $content_color: #e8e8e8;
 $header-footer-background: #14465b;
 $header-footer-text: #fff;
 $nav-color: #111111;
-$link-color: #fff;
+$nav_link: #fff;
+$nav_link-hover: #FF0800;
 
 
 /* --------------------------- Default / Mobile -------------------------------- */
@@ -33,6 +34,13 @@ header{
     text-align: center;
     font-family: $heading-font-stack;
     padding:0.3em;
+    font-size: 2em;
+
+    a{
+      &:hover, &:link, &:active, &:visited {
+        color: $nav_link;
+      }
+    }
   }
 }
 
@@ -41,17 +49,12 @@ nav, nav ul, nav ul li{
 }
 
 ul li a{
-  color: $link-color;
+  color: $nav_link;
+
+  &:hover{
+    color: $nav_link_hover;
+  }
 }
-
-a:hover{
-    color: red;
-  }
-
-a:active{
-    color: green;
-  }
-
 
 .title-bar{
   display: flex;
@@ -67,10 +70,10 @@ main{
   flex-direction: column;
 }
 
-#resume_title{ //main Title
+#page_title{ //main Title
   text-align: center;
   font-family: $heading-font-stack;
-  padding:0.3em;
+  padding:0.4em;
   margin-bottom: 0.2em;
 }
 
@@ -159,6 +162,10 @@ i{
 
   nav{
     // text-align: center;
+  }
+
+  header h1{
+    font-size: 4em;
   }
 
   #main-menu-ul{

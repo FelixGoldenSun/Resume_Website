@@ -12,7 +12,7 @@ require "templates/header.php";
     <div class="small-12 large-10 column" id="content_wrapper">
       <div class="row">
         <div class="small-12 column">
-          <h3 id="resume_title">Software Developer</h3>
+          <h3 id="page_title">Software Developer</h3>
         </div>
       </div>
       <div class="row">
@@ -90,7 +90,7 @@ require "templates/header.php";
       </div>
       <div class="row">
         <div class="small-12 column">
-          <p class="resume_headings">72nd Street Goodwill<br>
+          <p>72nd Street Goodwill<br>
             Tacoma, WA<br>
             2013 – 2014<br>
           </p>
