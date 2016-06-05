@@ -4,7 +4,6 @@ $page_title = "About Me";
 
 require "templates/header.php";
 
-
 ?>
 
 <!-- Main -->
@@ -23,9 +22,8 @@ require "templates/header.php";
               <p>Hello! My name is Ben, and I am a software developer. Not exclusively, I have also developed websites
                 and I know a thing or two about SQL.</p>
 
-                <p>Now that you’re here, feel free to check out my projects or view my resume. I am currently just
-                finishing up two years of college, and I am available for hire. So if you need a developer, don’t hesitate
-                to contact me!</p>
+                <p>Now that you’re here, feel free to check out some of my projects. They are a mix of websites, command line programs and a few mobile apps.
+                  I am currently just finishing up two years of college, and I am available for hire. So if you need a developer, don’t hesitate to contact me!</p>
             </div>
           </div>
       </div>

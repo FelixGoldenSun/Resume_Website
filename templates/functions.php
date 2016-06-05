@@ -56,13 +56,25 @@ function miniCalendar($month, $year){
   $prev_month_last_day = $prev_month_date->format("t");
   $prev_month_last_day -= $first_day - 1;
 
-  $calendar_string = "<div id='calendar_heading'>";
+  $calendar_string = "<div class='row align-center' id='calendar_heading'>";
+  $calendar_string .= "<div class='small-3 column'>";
   $calendar_string .= "<a href='/calendar.php?month=$prev_month&year=$prev_year' class='calendar_link'>Prev</a>";
-  $calendar_string .= "<a href='/calendar.php?month=$next_month&year=$next_year' class='calendar_link'>Next</a>\n";
-  $calendar_string .= "<h2 id='calendar_h2'>" . $date->format("F") . ", " . $year . "</h2>\n";
   $calendar_string .= "</div>";
-  $calendar_string .= "<table id='calendar_table'>\n";
+
+  $calendar_string .= "<div class='small-4 column'>";
+  $calendar_string .= "<h3 id='calendar_h2'>" . $date->format("F") . ", " . $year . "</h3>\n";
+  $calendar_string .= "</div>";
+
+  $calendar_string .= "<div class='small-3 column'>";
+  $calendar_string .= "<a href='/calendar.php?month=$next_month&year=$next_year' class='calendar_link'>Next</a>\n";
+  $calendar_string .= "</div>";
+  $calendar_string .= "</div>";
+
+  $calendar_string .= "<div class='row align-center'>";
+  $calendar_string .= "<div class='small-12 medium-8 column'>";
+  $calendar_string .= "<table id='calendar_table' >\n";
   $calendar_string .= "\t<tr>\t<td>Su</td>\n\t<td>Mo</td>\n\t<td>Tu</td>\n\t<td>We</td>\n\t<td>Th</td>\n\t<td>Fr</td>\n\t<td>Sa</td>\n\t</tr>";
+
   $count = 0;
   $day = 1;
   $row = 0;
@@ -112,6 +124,9 @@ function miniCalendar($month, $year){
   }
 
   $calendar_string .= "</table>\n";
+  $calendar_string .= "</div>";
+  $calendar_string .= "</div>";
+
   return $calendar_string;
 }
 
@@ -210,90 +225,6 @@ function articles_form($form_type, $article_id, $title, $author, $article_text, 
 END_OF_FORM;
   return $form;
 }
-
-function blog_form($form_type, $blog_id, $title, $author, $date_posted, $blog_text)
-{
-  if ($form_type == "new"){
-    $action = "/blog_new.php";
-    $button_value = "Create new blog entry";
-  }elseif($form_type == "edit"){
-    $action = "/blog_edit.php?blog_id=$blog_id";
-    $button_value = "Update blog entry";
-  }
-
-  // language="HTML"
-  $form = <<<END_OF_FORM
-        <div id="error_explanation">
-          <h2>Validation Errors</h2>
-          <ul>
-          </ul>
-        </div>
-        <form method="post" action="$action" id="data_form">
-        <div>
-          <label for="title">Title</label>
-          <input id="title" name="title" type="text" value="$title" placeholder="Title">
-        </div>
-        <div>
-          <label for="author">Author</label>
-          <input id="author" name="author" type="text" value="$author" placeholder="Author Name">
-        </div>
-        <div>
-          <label for="date_posted">Date Posted</label><br>
-          <input id="date_posted" name="date_posted" type="date" value="$date_posted" placeholder="yyyy-mm-dd"><br>
-        </div>
-        <div>
-          <label for="blog_text">Blog Text</label><br>
-          <textarea name="blog_text" id="blog_text" placeholder="Put text here">$blog_text</textarea>
-        </div>
-
-        <input type="submit" name="form_submit" value="$button_value">
-
-        </form>
-
-
-END_OF_FORM;
-  return $form;
-}
-
-function comments($id, $hidden_name, $action, $submit_value){
-
-  // language="HTML"
-  $comment_form =<<<END_OF_COMMENT_FORM
-        <div id="error_explanation">
-          <h2>Validation Errors</h2>
-          <ul>
-          </ul>
-        </div>
-         <form method="post" action="$action"  id="data_form">
-         <input type="hidden" name="$hidden_name" value="$id">
-         <div>
-            <label for="author" class="comment_labels">Author</label>
-            <input id="author" type="text" name="author" placeholder="Author">
-         </div>
-         <div>
-            <label for="text" class="comment_labels">Content</label>
-            <textarea id="text" name="text" placeholder="Content"></textarea>
-         </div>
-         <div>
-            <select name="rating">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select><br>
-         </div>
-
-            <input type="submit" name="post" value="$submit_value">
-
-          </form>
-
-END_OF_COMMENT_FORM;
-
-  return $comment_form;
-
-}
-
 
 
 

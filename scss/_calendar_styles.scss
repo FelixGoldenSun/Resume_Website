@@ -1,0 +1,59 @@
+/* ----------------------- Styles for my calendar --------------------------------- */
+
+
+table tr:nth-of-type(even) {
+  background-color: transparent !important;
+}
+
+#calendar_table{
+  color: black;
+  background-color: #FBFBED;
+  text-align: center;
+  font-size: 8pt;
+
+  tr:first-of-type{
+    color: #3FB1A3;
+    background-color: #F2F2F2;
+    font-size: 9pt;
+    border-bottom-color: #000000;
+  }
+}
+
+#calendar_heading{
+  text-align: center;
+}
+
+.other_days{
+  color: #D3D3D3;
+  background-color: #FCFCFC;
+}
+
+#current_day{
+  background-color: #D1ECE9;
+}
+
+.calendar_link{
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 40em) {
+
+  #calendar_heading{
+    font-size: 13pt;
+  }
+
+  #calendar_table{
+    font-size: 13pt;
+
+    tr:first-of-type{
+      font-size: 14pt;
+    }
+
+    tr td{
+      padding: 10px;
+    }
+  }
+
+
+}

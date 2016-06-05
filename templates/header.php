@@ -29,7 +29,7 @@
               <ul class="vertical menu">
                 <li><a href="#">PHP</a>
                   <ul class="vertical menu">
-                    <li><a href="#">project 1</a></li>
+                    <li><a href="/calendar.php">Calendar</a></li>
                     <li><a href="#">project 2</a></li>
                     <li><a href="#">project 3</a></li>
                     <li><a href="#">project 4</a></li>
@@ -49,7 +49,7 @@
                 <li><a href="#">Android / IOS</a>
                 <li><a href="#">JavaScript / JQuery</a>
                   <ul class="vertical menu" >
-                    <li><a href="#">project 1</a></li>
+                    <li><a href="/future_value.php">Future Value Calculator</a></li>
                     <li><a href="#">project 2</a></li>
                     <li><a href="#">project 3</a></li>
                     <li><a href="#">project 4</a></li>
