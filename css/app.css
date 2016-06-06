@@ -4094,6 +4094,8 @@ ul li a {
   color: #fff; }
   ul li a:hover {
     color: #FF0800; }
+  ul li a:active {
+    color: #db0700; }
 
 .title-bar {
   display: -ms-flexbox;
@@ -4118,6 +4120,9 @@ main {
   font-family: Georgia, serif;
   padding: 0.4em;
   margin-bottom: 0.2em; }
+
+#index-title {
+  font-family: Georgia, serif; }
 
 .resume_headings {
   padding-top: 30px; }

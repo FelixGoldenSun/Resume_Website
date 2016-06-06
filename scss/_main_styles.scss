@@ -7,6 +7,7 @@ $header-footer-text: #fff;
 $nav-color: #111111;
 $nav_link: #fff;
 $nav_link-hover: #FF0800;
+$nav_link-active: scale-color($nav_link-hover, $lightness: -14%);
 
 
 /* --------------------------- Default / Mobile -------------------------------- */
@@ -54,6 +55,10 @@ ul li a{
   &:hover{
     color: $nav_link_hover;
   }
+
+  &:active{
+    color: $nav_link-active;
+  }
 }
 
 .title-bar{
@@ -70,11 +75,15 @@ main{
   flex-direction: column;
 }
 
-#page_title{ //main Title
+#page_title{ //main Title for pages
   text-align: center;
   font-family: $heading-font-stack;
   padding:0.4em;
   margin-bottom: 0.2em;
+}
+
+#index-title{
+  font-family: $heading-font-stack;
 }
 
 .resume_headings{ //headings for descriptions
@@ -99,12 +108,10 @@ main > div{
    flex: 1 0 auto;
 }
 
-
 #content_wrapper{
   padding: 2em;
   background-color: $content_color;
 }
-
 
 #index-image{
   width: 74%;

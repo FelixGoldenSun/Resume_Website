@@ -20,8 +20,8 @@ require "templates/header.php";
         <div class="small-12 column">
           <h3 id="page_title">Responsive Retrofit</h3>
           <p>This was a project to turn an existing site into a responsive one. It’s now readable on mobile and tablet screens. </p>
-          <p>I definitely underestimated how hard it would be to use the existing styles. T
-            he original site was written with a bunch of redundant styles, and used tables to create the layout (Never a good thing).
+          <p>I definitely underestimated how hard it would be to use the existing styles.
+            The original site was written with a bunch of redundant styles, and used tables to create the layout (Never a good thing).
             Eventually, I had to start over from scratch. I did use code for the mobile menu, and a reset file to remove all of the default styles.
             Any styles that could be salvaged were kept in, but that was mostly just fonts and colors.
             One of the elements I’m proud of was a grid system I made that made it easy to create elements in rows and columns.

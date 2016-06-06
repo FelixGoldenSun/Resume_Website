@@ -15,16 +15,16 @@ require "templates/header.php";
         <div class="small-12 medium-6 column">
           <h3 id="page_title">Future Value Calculator</h3>
 
-          <label for="investment">Investment Amount:</label>
+          <label for="investment">Investment Amount</label>
           <input type="text" id="investment"><br>
 
-          <label for="rate">Annual Interest Rate:</label>
+          <label for="rate">Annual Interest Rate</label>
           <input type="text" id="rate"><br>
 
-          <label for="years">Number of Years:</label>
+          <label for="years">Number of Years</label>
           <input type="text" id="years"><br>
 
-          <label for="future_value">Future Value:</label>
+          <label for="future_value">Future Value</label>
           <input type="text" id="future_value" disabled="disabled">
 
           <input  type="button" id="calculate" value="Calculate"> <input type="button" id="clear" value="Clear"><br>
@@ -34,13 +34,10 @@ require "templates/header.php";
       </div>
       <div class="row">
         <div class="small-12 column">
-          <p>This was a project to turn an existing site into a responsive one. It’s now readable on mobile and tablet screens. </p>
-          <p>I definitely underestimated how hard it would be to use the existing styles. T
-            he original site was written with a bunch of redundant styles, and used tables to create the layout (Never a good thing).
-            Eventually, I had to start over from scratch. I did use code for the mobile menu, and a reset file to remove all of the default styles.
-            Any styles that could be salvaged were kept in, but that was mostly just fonts and colors.
-            One of the elements I’m proud of was a grid system I made that made it easy to create elements in rows and columns.
-            It turned out pretty well, I think.</p>
+          <br>
+          <p>This project is just a simple calculator for future value, made in JavaScript. </p>
+          <p>Not JQuery mind you, just JavaScript. Not much to it, but it does check the input to insure that the values are valid for the calculations.
+            It uses alerts, so if you have those turned off you might not see anything if you enter a incorrect value. </p>
           <p>Check out the source code on <a href="https://github.com/FelixGoldenSun/Future_Value_Calculator">GitHub</a>. </p>
         </div>
       </div>
