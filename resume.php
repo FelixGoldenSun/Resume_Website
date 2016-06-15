@@ -34,6 +34,7 @@ require "templates/header.php";
           <p>&nbsp;- Programmed using Ruby, Java, and C#</p>
           <p>&nbsp;- Wrote SQL queries and utilized joins, stored procedures, views, and functions</p>
           <p>&nbsp;- Developed dynamic websites using Git as version control</p>
+          <p>&nbsp;- Created websites using the Microsoft Azure platform</p>
         </div>
       </div>
       <div class="row">
@@ -55,6 +56,7 @@ require "templates/header.php";
           <p>&nbsp;- HTML 5 / CSS 3</p>
           <p>&nbsp;- Responsive Design</p>
           <p>&nbsp;- MySQL</p>
+          <p>&nbsp;- MS Azure</p>
           <p>&nbsp;- Ruby / Rails</p>
           <p>&nbsp;- Agile</p>
           <p>&nbsp;- Android Development / Java</p>

@@ -1,6 +1,6 @@
 <?php
 
-$page_title = "Projects - Retrofit";
+$page_title = "Projects - Future Value";
 
 require "templates/header.php";
 

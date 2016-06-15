@@ -1,13 +1,8 @@
 <?php
 
-$page_title = "Projects - Calendar";
+$page_title = "Word Search";
 
 require "templates/header.php";
-
-require "templates/functions.php";
-
-$month = $_GET['month'];
-$year = $_GET['year'];
 
 ?>
 
@@ -19,13 +14,12 @@ $year = $_GET['year'];
       <div class="row">
         <div class="small-12 column">
 
-        <?php echo miniCalendar($month, $year) ?>
 
         </div>
       </div>
       <div class="row">
         <div class="small-12 column">
-          <h3 id="page_title">Responsive Retrofit</h3>
+          <h3 id="page_title">Word Search</h3>
           <p>This was a project to turn an existing site into a responsive one. It’s now readable on mobile and tablet screens. </p>
           <p>I definitely underestimated how hard it would be to use the existing styles. T
             he original site was written with a bunch of redundant styles, and used tables to create the layout (Never a good thing).
