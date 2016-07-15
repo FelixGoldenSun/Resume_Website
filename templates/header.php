@@ -30,6 +30,7 @@
                 <li><a href="#">PHP</a>
                   <ul class="vertical menu">
                     <li><a href="/calendar.php">Calendar</a></li>
+                    <li><a href="/cis230.php">CIS 230 CRUD</a></li>
                   </ul>
                 </li>
                 <li><a href="#">Ruby / Rails</a></li>
